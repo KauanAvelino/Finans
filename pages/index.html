@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Finans - finanças pessoais</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="../font awesome/css/all.min.css">
+
+    <!--EStilo css-->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header><!--começo do cabeçalho-->
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../img/logo.png" width="142" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse"
+                    data-target="#nav-principal"><!--botão hambuguer tem que colocar essas classes, e colocar data-toggle como collapse e data-target com o id que queremos fazer isso-->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <!--div para ela collapsar e assim ficar resnposiva-->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- margin left auto para ficar alinhado a direita automaticamente-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Benefícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-4" href="index.html">Preço</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-light">Entrar</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header><!--Fim do cabeçalho-->
+
+    <section id="home"><!--Inicio do home-->
+        <div class="container">
+            <div class="row"><!--Divisão em colunas para texto e img-->
+                <div class="col-md-6 d-flex"><!--inicio texto da seção-->
+                    <div class="align-self-center">
+                        <!--tranformamos a div pai em flebox, e dps colocamos um align-self-center para centralizar tudo ao centro-->
+                        <h1 class="display-4">Suas contas, descomplicadas</h1>
+                        <p class="">Mais de 1 milhão de pessoas já utilizam o Finans para simplificar e organizar suas
+                            finanças de forma prática e segura.</p>
+
+                        <form class="mt-4 mb-4"> <!--inicio do form com margin superior e inferior-->
+                            <div class="input-group input-group-lg">
+                                <!--div com classe que junta dos conteudos em um group-->
+                                <input class="form-control" type="text" placeholder="Seu email">
+                                <div class="input-group-append"><!--classe para o botão ficar preso do lado do form-->
+                                    <button type="button" class="btn btn-primary"> Cadastra-se</button>
+                                </div>
+                            </div>
+                        </form><!--fim do form-->
+
+                        <p>Disponivel para
+                            <a class="pl-2 pr-2 btn btn-outline-light fa-brands fa-android" href=""></a>
+                            <a class="btn btn-outline-light fa-brands fa-apple " href=""></a>
+                        </p>
+                    </div>
+                </div><!--fim texto-->
+                <div class="col-md-6 d-none d-md-block">
+                    <!--Inicio imagem--><!--utlizando o d-none, a gnt tira o display ou seja não aparece nd, mas colocando d-md-block o display parece em telas md para cima, fazendo assim parecendo que ta sumindo-->
+                    <img src="../img/capa-mulher.png">
+                </div><!--fim imagem-->
+            </div>
+        </div>
+    </section> <!--Fim do home-->
+
+    <section class="caixa"> <!--inicio conteudo 1-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1>Saiba para onde vai o seu dinheiro</h1>
+                        <p>
+                            Com o Finans, você acompanha todos os seus gastos e receitas em tempo real. Visualize
+                            gráficos detalhados, categorize suas despesas e identifique oportunidades para economizar.
+                            Tenha total controle sobre suas finanças e tome decisões mais inteligentes para o seu
+                            futuro.
+                        </p>
+                        <a class="btn btn-primary mb-3" href="index.html">Veja mais</a>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <img class="img-fluid" src="../img/saiba.png"
+                        alt=""><!--CLASS IMPORTANTE, basicamente se usar a class img-fluid, ele faz com que a imagem se ajuste com o campo dela, ent se a imagem for maior ele arruma isso-->
+                </div>
+            </div>
+        </div>
+    </section><!--Fim conteudo 1-->
+
+    <section class="caixa"><!--Inicio conteudo 2-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="img-fluid" src="../img/juros.png" alt="">
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1>Pare de pagar juros e economize</h1>
+                        <p>
+                            Com o controle financeiro do Finans, você evita atrasos e pagamentos desnecessários de
+                            juros. Receba alertas de contas a vencer, organize seus compromissos e mantenha suas
+                            finanças em dia. Assim, sobra mais dinheiro para investir nos seus sonhos.
+                        </p>
+                        <a class="btn btn-primary mb-3" href="">Veja mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Fim conteudo 2-->
+
+    <section class="caixa"><!--Inicio conteudo 3-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../img/facil.png" class="img-fluid">
+                    <h4>Facil de usar</h4>
+                    <p>
+                        O Finans foi desenvolvido para ser intuitivo e prático. Em poucos cliques, você cadastra suas
+                        receitas e despesas, acompanha relatórios e mantém o controle financeiro sem complicações.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/economize.png" class="img-fluid">
+                    <h4>Economize seu tempo</h4>
+                    <p>
+                        Automatize tarefas repetitivas e tenha relatórios prontos em segundos. Com o Finans, você gasta
+                        menos tempo organizando suas finanças e aproveita mais o seu dia.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/suporte.png" class="img-fluid">
+                    <h4>Suporte amigo</h4>
+                    <p>
+                        Nossa equipe está sempre pronta para ajudar você. Conte com um suporte rápido, eficiente e
+                        amigável para tirar dúvidas e resolver qualquer problema. No Finans, você nunca está sozinho na
+                        sua jornada financeira.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section><!--Fim conteudo 3-->
+
+    <footer class="mt-4 mb-4"><!--Inicio rodape-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        <a href="">Home</a>
+                        <a href="">Recursos</a>
+                        <a href="">Benefícios</a>
+                        <a href="">Preços</a>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <a class=" text-secondary ml-2" href="">
+                        <i class="fa-brands fa-x-twitter fa-xl"></i>
+                    </a>
+                    <a class=" text-secondary  ml-2 " href="">
+                        <i class="fa-brands fa-youtube fa-xl"></i>
+                    </a>
+                    <a class=" text-secondary  ml-2" href="">
+                        <i class="fa-brands fa-facebook fa-xl"></i>
+                    </a>
+                    <a class=" text-secondary  ml-2 " href="">
+                        <i class="fa-brands fa-instagram fa-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer><!--FIm rodape-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
